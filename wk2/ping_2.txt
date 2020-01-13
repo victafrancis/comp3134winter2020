@@ -1,0 +1,3 @@
+root@comp3134:~# ping 165.227.37.21
+PING 165.227.37.21 (165.227.37.21) 56(84) bytes of data.
+64 bytes from 165.227.37.21: icmp_seq=1 ttl=64 time=0.036 ms

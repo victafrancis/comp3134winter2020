@@ -1,0 +1,13 @@
+$ tracert 165.227.37.21
+
+Tracing route to 165.227.37.21 over a maximum of 30 hops
+
+  1    13 ms    12 ms    12 ms  10.16.32.1
+  2     *        *        *     Request timed out.
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7    15 ms    13 ms    14 ms  165.227.37.21
+
+Trace complete.

@@ -1,0 +1,92 @@
+1. To use Nmap to scan 1000 TCP ports, type the following command. Use various host names.
+root@comp3134:~# nmap kaggle.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:26 UTC
+Nmap scan report for kaggle.com (35.244.233.98)
+Host is up (0.00090s latency).
+rDNS record for 35.244.233.98: 98.233.244.35.bc.googleusercontent.com
+Not shown: 980 filtered ports
+PORT     STATE SERVICE
+25/tcp   open  smtp
+43/tcp   open  whois
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+443/tcp  open  https
+465/tcp  open  smtps
+587/tcp  open  submission
+700/tcp  open  epp
+993/tcp  open  imaps
+995/tcp  open  pop3s
+3389/tcp open  ms-wbt-server
+5222/tcp open  xmpp-client
+5432/tcp open  postgresql
+5900/tcp open  vnc
+5901/tcp open  vnc-1
+8080/tcp open  http-proxy
+8085/tcp open  unknown
+8099/tcp open  unknown
+9200/tcp open  wap-wsp
+
+Nmap done: 1 IP address (1 host up) scanned in 26.93 seconds
+
+
+2. To scan a single Port
+root@comp3134:~# nmap -p 587 kaggle.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:32 UTC
+Nmap scan report for kaggle.com (35.244.233.98)
+Host is up (0.0018s latency).
+rDNS record for 35.244.233.98: 98.233.244.35.bc.googleusercontent.com
+
+PORT    STATE    SERVICE
+587/tcp filtered submission
+
+Nmap done: 1 IP address (1 host up) scanned in 0.64 seconds
+
+
+3. To scan a range of ports
+root@comp3134:~# nmap -p 1-500 kaggle.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:33 UTC
+Nmap scan report for kaggle.com (35.244.233.98)
+Host is up (0.0010s latency).
+rDNS record for 35.244.233.98: 98.233.244.35.bc.googleusercontent.com
+Not shown: 492 filtered ports
+PORT    STATE SERVICE
+25/tcp  open  smtp
+43/tcp  open  whois
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+195/tcp open  dn6-nlm-aud
+443/tcp open  https
+465/tcp open  smtps
+
+Nmap done: 1 IP address (1 host up) scanned in 11.98 seconds
+
+
+4. To scan 100 most common ports (Fast)
+root@comp3134:~# nmap -F kaggle.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:34 UTC
+Nmap scan report for kaggle.com (35.244.233.98)
+Host is up (0.0012s latency).
+rDNS record for 35.244.233.98: 98.233.244.35.bc.googleusercontent.com
+Not shown: 87 filtered ports
+PORT     STATE SERVICE
+25/tcp   open  smtp
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+443/tcp  open  https
+465/tcp  open  smtps
+587/tcp  open  submission
+993/tcp  open  imaps
+995/tcp  open  pop3s
+3389/tcp open  ms-wbt-server
+5432/tcp open  postgresql
+5900/tcp open  vnc
+8080/tcp open  http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 3.64 seconds

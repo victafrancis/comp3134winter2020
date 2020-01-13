@@ -1,0 +1,19 @@
+spreepicky.com
+IP Address: 23.227.38.32
+Geolocation: CA (Canada), ON, Ontario, K2P Ottawa
+
+amazon.ca
+IP Address: 54.239.18.172
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+
+youtube.com
+IP Address: 172.217.10.142
+Geolocation: US (United States), CA, California, 94043 Mountain View 
+
+kaggle.com
+IP Address: 35.244.233.98
+Geolocation: US (United States), CA, California, 94043 Mountain View
+
+geekforgeeks.com
+IP Address: 103.224.182.239
+Geolocation: AU (Australia), N/A, N/A, N/A N/A 
