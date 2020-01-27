@@ -1,0 +1,7 @@
+root@comp3134:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+23:09:09.062396 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 1851346492:1851346536, ack 3145294157, win 501, length 44
+23:09:09.062499 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 44:152, ack 1, win 501, length 108
+23:09:09.062570 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 152:180, ack 1, win 501, length 28
+23:09:09.071837 IP CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260 > comp3134.ssh: Flags [.], ack 44, win 509, length 0
+23:09:09.071871 IP CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260 > comp3134.ssh: Flags [.], ack 180, win 509, length 0

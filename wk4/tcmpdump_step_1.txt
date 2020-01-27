@@ -1,0 +1,38 @@
+root@comp3134:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+22:39:47.798586 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 1846696360:1846696468, ack 3145287389, win 501, length 108
+22:39:47.798674 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 108:136, ack 1, win 501, length 28
+22:39:47.798752 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 136:244, ack 1, win 501, length 108
+22:39:47.798813 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 244:272, ack 1, win 501, length 28
+22:39:47.799582 IP comp3134.36026 > 67.207.67.2.domain: 16547+ [1au] PTR? 217.68.224.99.in-addr.arpa. (55)
+22:39:47.808349 IP CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260 > comp3134.ssh: Flags [.], ack 108, win 510, length 0
+22:39:47.814312 IP CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260 > comp3134.ssh: Flags [.], ack 272, win 510, length 0
+22:39:47.876145 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 504:692, ack 1, win 501, length 188
+22:39:47.876387 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 720:908, ack 1, win 501, length 188
+22:39:47.876546 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 936:1124, ack 1, win 501, length 188
+22:39:47.877078 IP comp3134.36379 > 67.207.67.2.domain: 15454+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+22:39:47.922207 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 1320:1492, ack 1, win 501, length 172
+22:39:47.922367 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 1520:1692, ack 1, win 501, length 172
+22:39:47.922556 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 1720:1908, ack 1, win 501, length 188
+22:39:47.922742 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 1936:2124, ack 1, win 501, length 188
+22:39:47.922923 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 2152:2340, ack 1, win 501, length 188
+22:39:47.923093 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 2368:2508, ack 1, win 501, length 140
+22:39:47.923264 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 2536:2724, ack 1, win 501, length 188
+22:39:47.923430 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 2752:2940, ack 1, win 501, length 188
+22:39:47.934508 IP CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260 > comp3134.ssh: Flags [.], ack 1320, win 512, length 0
+22:39:47.934558 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 2968:4264, ack 1, win 501, length 1296
+22:39:47.934578 IP CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260 > comp3134.ssh: Flags [.], ack 2724, win 513, length 0
+22:39:47.934734 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 4264:4436, ack 1, win 501, length 172
+22:39:47.934798 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 4436:4464, ack 1, win 501, length 28
+22:39:47.934873 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 4464:4652, ack 1, win 501, length 188
+22:39:47.934925 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 4652:4680, ack 1, win 501, length 28
+22:39:47.934994 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 4680:4852, ack 1, win 501, length 172
+22:39:47.935043 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 4852:4880, ack 1, win 501, length 28
+22:39:47.935111 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 4880:5068, ack 1, win 501, length 188
+22:39:47.935228 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 5096:5284, ack 1, win 501, length 188
+22:39:47.935428 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 5312:5500, ack 1, win 501, length 188
+22:39:47.935620 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 5528:5716, ack 1, win 501, length 188
+22:39:47.935763 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 5744:5932, ack 1, win 501, length 188
+22:39:47.935895 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 5960:6148, ack 1, win 501, length 188
+22:39:47.936035 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 6176:6364, ack 1, win 501, length 188

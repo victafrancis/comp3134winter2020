@@ -1,0 +1,62 @@
+root@comp3134:~# tcpdump -c 5 -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+23:01:48.502790 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 1851336216:1851336324, ack 3145292849, win 501, length 108
+        0x0000:  fe00 0000 0101 229f 7df2 03b8 0800 4510  ......".}.....E.
+        0x0010:  0094 9c12 4000 4006 2a90 a5e3 2515 63e0  ....@.@.*...%.c.
+        0x0020:  44d9 0016 f334 6e59 2618 bb79 5c31 5018  D....4nY&..y\1P.
+        0x0030:  01f5 7438 0000 0000 0060 e9d8 3b34 088c  ..t8.....`..;4..
+        0x0040:  7478 4a45 9cfd 4ee1 c8d7 5369 d14b 1eb2  txJE..N...Si.K..
+        0x0050:  eddb 9c95 10b7 a3a3 e1a2 5069 0b07 3fda  ..........Pi..?.
+        0x0060:  6fb5 62ce c497 b173 8382 bfc9 7e65 8ca4  o.b....s....~e..
+        0x0070:  035b 2ff2 306b 0ee8 b6ba 5ec2 76f4 6c33  .[/.0k....^.v.l3
+        0x0080:  d87f 6155 78df b2b6 465c df8b cead b4fb  ..aUx...F\......
+        0x0090:  5c78 13f6 c8ca e3eb 7362 aa7a d21c e1ac  \x......sb.z....
+        0x00a0:  7ee8                                     ~.
+23:01:48.502902 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 108:136, ack 1, win 501, length 28
+        0x0000:  fe00 0000 0101 229f 7df2 03b8 0800 4510  ......".}.....E.
+        0x0010:  0044 9c13 4000 4006 2adf a5e3 2515 63e0  .D..@.@.*...%.c.
+        0x0020:  44d9 0016 f334 6e59 2684 bb79 5c31 5018  D....4nY&..y\1P.
+        0x0030:  01f5 73e8 0000 0000 0010 dbc2 69dd 2a91  ..s.........i.*.
+        0x0040:  dc4a edce 6592 e41e 5172 bb3b 30b0 268e  .J..e...Qr.;0.&.
+        0x0050:  f9cd                                     ..
+23:01:48.503006 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 136:244, ack 1, win 501, length 108
+        0x0000:  fe00 0000 0101 229f 7df2 03b8 0800 4510  ......".}.....E.
+        0x0010:  0094 9c14 4000 4006 2a8e a5e3 2515 63e0  ....@.@.*...%.c.
+        0x0020:  44d9 0016 f334 6e59 26a0 bb79 5c31 5018  D....4nY&..y\1P.
+        0x0030:  01f5 7438 0000 0000 0060 8083 5611 9e1b  ..t8.....`..V...
+        0x0040:  6a16 886d 5b0a 134a 4db3 6a86 6c40 8650  j..m[..JM.j.l@.P
+        0x0050:  768c 9278 1c4e 08b4 dd63 7cb3 18c0 1017  v..x.N...c|.....
+        0x0060:  a240 b0aa 80e1 8b50 2172 0b95 1ca2 0f26  .@.....P!r.....&
+        0x0070:  afd5 1196 20f2 2aaa 1abd bc2a 95c1 208b  ......*....*....
+        0x0080:  fe4b 9289 8e1f cc3f 4757 3c5f 0b18 1b7f  .K.....?GW<_....
+        0x0090:  495a 941c 83b7 e261 ea45 d60d 9ad7 0e62  IZ.....a.E.....b
+        0x00a0:  967e                                     .~
+23:01:48.503088 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 244:272, ack 1, win 501, length 28
+        0x0000:  fe00 0000 0101 229f 7df2 03b8 0800 4510  ......".}.....E.
+        0x0010:  0044 9c15 4000 4006 2add a5e3 2515 63e0  .D..@.@.*...%.c.
+        0x0020:  44d9 0016 f334 6e59 270c bb79 5c31 5018  D....4nY'..y\1P.
+        0x0030:  01f5 73e8 0000 0000 0010 1e02 2b9f c300  ..s.........+...
+        0x0040:  65a5 38cd 59ee 610c 7b92 588c 36fb a6de  e.8.Y.a.{.X.6...
+        0x0050:  cd3f                                     .?
+23:01:48.504668 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 272:476, ack 1, win 501, length 204
+        0x0000:  fe00 0000 0101 229f 7df2 03b8 0800 4510  ......".}.....E.
+        0x0010:  00f4 9c16 4000 4006 2a2c a5e3 2515 63e0  ....@.@.*,..%.c.
+        0x0020:  44d9 0016 f334 6e59 2728 bb79 5c31 5018  D....4nY'(.y\1P.
+        0x0030:  01f5 7498 0000 0000 00c0 7744 8dc4 4974  ..t.......wD..It
+        0x0040:  246f 7555 3ae5 9132 19a9 54e9 0618 e8e5  $ouU:..2..T.....
+        0x0050:  fd92 8467 6e6a e9bf f0c5 0378 45eb 0364  ...gnj.....xE..d
+        0x0060:  b74b 33c8 de1f 64da c483 c227 a8a0 301c  .K3...d....'..0.
+        0x0070:  de5d 60a4 07e6 9fbe 306f 36da 6836 f891  .]`.....0o6.h6..
+        0x0080:  300b 9caa 1257 29a1 302e 8fe9 2b79 2379  0....W).0...+y#y
+        0x0090:  ccd4 e42d 7e1c 875b f42b a142 2c14 78cf  ...-~..[.+.B,.x.
+        0x00a0:  13bd 5279 44ec 0734 c1f5 1908 6a49 0f53  ..RyD..4....jI.S
+        0x00b0:  64bf 2c47 81e6 9445 249b 59f7 c9c0 d6c5  d.,G...E$.Y.....
+        0x00c0:  fa37 7906 9eac cb3c 8ed4 692c ea10 3cfc  .7y....<..i,..<.
+        0x00d0:  6148 7640 c0dc 0c00 bf0a fcb0 7077 31ef  aHv@........pw1.
+        0x00e0:  bc68 471e e23a 800a dbdc 9826 556c 3682  .hG..:.....&Ul6.
+        0x00f0:  df8a 586a 0646 7551 d033 3f68 56bc b403  ..Xj.FuQ.3?hV...
+        0x0100:  f537                                     .7
+5 packets captured
+9 packets received by filter
+2 packets dropped by kernel

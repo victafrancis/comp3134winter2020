@@ -1,0 +1,19 @@
+root@comp3134:~# tcpdump -c 5 -A -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+22:58:44.169746 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 1848542148:1848542256, ack 3145289777, win 501, length 108
+E....&@.@.7|..%.c.D....4n....yP1P...t8.....`*.|-...]r...... >.e)..- ..9
+*BAZ.A-((BNb.
+.?...B..(.W.G/).db...
+gC..UU(..................>[n.....< ..fWo
+22:58:44.169819 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 108:136, ack 1, win 501, length 28
+E..D.'@.@.7...%.c.D....4n..0.yP1P...s..........C?.+..Y...Z..ey1..+#.
+22:58:44.169886 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 136:244, ack 1, win 501, length 108
+E....(@.@.7z..%.c.D....4n..L.yP1P...t8.....`.y.y....O..H..).N..LS..6..R..9....3 (...b.{.....N.s....$.. .........1%vM..d..b\.A..".g.....%..X,.g....N.
+22:58:44.169938 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 244:272, ack 1, win 501, length 28
+E..D.)@.@.7...%.c.D....4n....yP1P...s...........W...C.s.7C.....#3.$.
+22:58:44.171216 IP comp3134.ssh > CPEf0f2496b8133-CMf0f2496b8130.cpe.net.cable.rogers.com.62260: Flags [P.], seq 272:476, ack 1, win 501, length 204
+E....*@.@.7...%.c.D....4n....yP1P...t.......bisA.D.>;:....\..&....Y..].q..-....8....i......W..oq..H.Y....[./......?.....RDCq|..y.....0.*&{coT...'.. ..^.A...).r.N.n.....Q3N.......'g.-B~....+...J..=..o`..pr...Z.@.z..NP.d#.....U.....1#.&.7....c.5.
+5 packets captured
+9 packets received by filter
+2 packets dropped by kernel
