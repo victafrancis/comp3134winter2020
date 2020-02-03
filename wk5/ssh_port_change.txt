@@ -1,0 +1,2 @@
+ufw allow 2222/tcp
+service sshd restart
