@@ -1,0 +1,14 @@
+1) Navigate to the form and type a valid English word. Write your observations.
+>>returns the definition of the word
+>>url is https://www.dictionary.com/browse/coronavirus#
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. Write your observations
+>>No results found
+>>https://www.dictionary.com/misspelling?term=blahblidi
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script> Write your observations.
+>>returned: Results for <script>alert('hello')</script>:
+
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script> after the `term=` section of the URL. Write your observations.
+>>nothing same result

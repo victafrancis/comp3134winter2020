@@ -1,0 +1,9 @@
+strip_tags
+> removes any tags found or specified
+
+html entities
+>The htmlentities() function converts characters to HTML entities.
+>it is used to see if there are any combined strings that are actually special characters
+
+The difference between the 2 solutions is that when you use the strip tags, it takes out the tags leaving only the content of the tag.
+When you use htmlenteties, it returns a string of the user input leaving it with the tag and outputs everything to string.
