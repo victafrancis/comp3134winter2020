@@ -1,0 +1,5 @@
+Should not be able to view files and folders before html directory
+>Using the basename, the directory locks in the same directory of the file
+
+Should not attempt to look at folders that do not exists
+>using File_exists(), it will not return a file that does not exist

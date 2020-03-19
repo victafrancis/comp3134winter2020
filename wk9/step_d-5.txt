@@ -1,0 +1,2 @@
+I can see the directory structure of one folder above the current root directory.
+From here I can see all the files and folders I can traverse to or open.

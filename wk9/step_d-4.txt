@@ -1,0 +1,3 @@
+Right here I can see the the contents of two traversals above the current root directory.
+I can see all the folders within this folder that I can traverse to and explore.
+I'll know all the folders within the directory

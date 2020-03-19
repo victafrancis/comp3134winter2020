@@ -1,0 +1,3 @@
+To hide the comments in step G, I will use a PHP file and comment it out using PHP commenting.
+
+This will hide all comments from showing up in the source code of the browser.
