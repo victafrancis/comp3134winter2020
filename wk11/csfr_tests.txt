@@ -1,0 +1,4 @@
+When I ran csfr_form.php, it successfully logged in to csfr_action.php.
+It is because the session variable and the hidden input variable is the same.
+
+When I ran the csfr.html, it does not log in. This is because I don't have a php session variable.

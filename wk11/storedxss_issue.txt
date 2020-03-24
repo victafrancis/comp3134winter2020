@@ -1,0 +1,3 @@
+The issue I found was that the contents of the txt file ran because it was inside a script tag,
+rather than outputting the contents as text. This could be a problem because unwanted scripts could
+by opening files like this.
