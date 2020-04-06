@@ -2,13 +2,13 @@
 <?php
 session_start();
 //get session variable
-$sessionVar = $_SESSION["confirmation"];
+// $sessionVar = $_SESSION["confirmation"];
 //get post value
-if(isset($_POST['confirmation'])) {
-	$postVar = $_POST['confirmation'];
-};
+// if(isset($_POST['confirmation'])) {
+// 	$postVar = $_POST['confirmation'];
+// };
 
-if($sessionVar == $postVar) {
+if(isset($_SESSION['confirmation']) and isset($_POST['confirmation']) and $_SESSION["confirmation"] == $_POST['confirmation']) {
 	if(isset($_POST['username'])) {
 		if($_POST['username']=='host' and $_POST['password']=='pass') { ?>
 			<div>Successfully logged in!</div><br />

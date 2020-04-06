@@ -1,0 +1,7 @@
+1) The results are expected because only rows with active=1 will show up. Ben has active=0.
+
+2) Ben still showed even if my condition specifically said not to include users where active=0.
+Definitely this is not the expected output.
+
+3) There are no results after the search, possibly because of the conditions.
+This should be the expected output.
